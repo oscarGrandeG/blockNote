@@ -1,2 +1,1 @@
-# blockNote
-Created with CodeSandbox
+# poc-block-editor-libs

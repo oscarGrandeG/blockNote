@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "poc-block-editor-libs",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "git@github.com:shuta13/poc-block-editor-libs.git",
+  "author": "shuta13 <hollystarsun@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "2.24.3",
+    "@editorjs/embed": "2.5.1",
+    "@editorjs/header": "2.6.2",
+    "@editorjs/paragraph": "2.8.0",
+    "@lexical/clipboard": "0.3.2",
+    "@lexical/plain-text": "0.3.2",
+    "@lexical/react": "0.3.2",
+    "@lexical/rich-text": "0.3.2",
+    "@lexical/selection": "0.3.2",
+    "@lexical/utils": "0.3.2",
+    "@types/react": "18.0.10",
+    "@types/react-dom": "18.0.5",
+    "lexical": "0.3.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "recoil": "0.7.3-alpha.2"
+  }
+}
